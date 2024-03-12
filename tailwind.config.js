@@ -13,10 +13,13 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        primary: '#213458',
-        secondary: '#dddddd',
-        third: '#1d7d81'
-      }
+        primary: "#213458",
+        secondary: "#dddddd",
+        third: "#1d7d81",
+      },
+      fontFamily: {
+        roboto: ["var(--font-roboto)"],
+      },
     },
   },
   plugins: [],
