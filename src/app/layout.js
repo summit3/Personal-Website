@@ -1,12 +1,6 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import { Roboto } from "next/font/google";
-
-const roboto = Roboto({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: ["--font-roboto"],
-});
+import { roboto } from "../../public/Utils/fonts";
 
 export const metadata = {
   title: "Create Next App",
@@ -16,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="font-sans text-secondary">
+      <body className={`${roboto.className} text-secondary`}>
         <Navbar />
         {children}
       </body>

@@ -17,9 +17,6 @@ module.exports = {
         secondary: "#dddddd",
         third: "#1d7d81",
       },
-      fontFamily: {
-        roboto: ["var(--font-roboto)"],
-      },
     },
   },
   plugins: [],
