@@ -1,8 +1,10 @@
 export default function Blob() {
   return (
     <svg
-      viewBox="-200 -200 300 300"
-      className="cols-span-1 col-start-2 row-span-1 row-start-2"
+      viewBox="-100 -100 200 200"
+      width={600}
+      height={600}
+      className="absolute right-56 top-52"
     >
       <path fill="#213458">
         <animate

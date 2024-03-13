@@ -3,5 +3,5 @@ import spacer2 from "../../public/Svg/layered-waves-haikei-2.svg";
 import Image from "next/image";
 
 export default function About() {
-  return <section className="h-screen bg-secondary"></section>;
+  return <section className="h-screen bg-primary"></section>;
 }
