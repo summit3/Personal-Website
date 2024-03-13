@@ -9,3 +9,7 @@
   background-position: center;
   background-size: cover;
 }
+
+.invert {
+  filter: invert(99%) sepia(0%) saturate(1912%) hue-rotate(12deg) brightness(90%) contrast(73%);
+}
