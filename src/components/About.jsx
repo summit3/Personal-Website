@@ -1,7 +1,10 @@
-import spacer1 from "../../public/Svg/layered-waves-haikei.svg";
-import spacer2 from "../../public/Svg/layered-waves-haikei-2.svg";
-import Image from "next/image";
+import Grid from "./About/Grid";
 
 export default function About() {
-  return <section className="h-screen bg-primary"></section>;
+  return (
+    <section className="h-screen bg-secondary text-black text-3xl flex flex-col justify-center items-center">
+      <h2 className="font-bold text-primary block">About</h2>
+      <Grid />
+    </section>
+  );
 }
