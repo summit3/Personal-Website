@@ -10,7 +10,7 @@ export default function Projects() {
         <h2 className="w-screen font-bold text-primary text-center my-10">
           Projects
         </h2>
-        <div className="grid grid-cols-3 w-screen justify-items-center px-64 mt-10">
+        <div className="grid grid-cols-3 w-screen justify-items-center mt-10 px-20">
           <Card />
           <Card />
           <Card />
