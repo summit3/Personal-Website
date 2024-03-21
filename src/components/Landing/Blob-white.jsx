@@ -1,6 +1,6 @@
 export default function Blob() {
   return (
-    <svg viewBox="-98 -98 190 190" width={600} height={600} className="">
+    <svg viewBox="-95 -100 190 185" width={600} height={700} className="">
       <path fill="#dddddd">
         <animate
           attributeName="d"

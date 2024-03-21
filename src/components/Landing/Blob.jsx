@@ -4,7 +4,7 @@ export default function Blob() {
       viewBox="-100 -100 197 197"
       width={600}
       height={600}
-      className="absolute right-52 top-44"
+      className="absolute right-52 top-24"
     >
       <path fill="#213458">
         <animate
