@@ -20,19 +20,31 @@ export default function Contact() {
         <div className="flex items-center -ml-4">
           <Image src={tiktok} className="h-10 my-10" />
           <div className="mr-72 -ml-80 text-lg font-bold">
-            <Link href={tiktok}>summit614</Link>
+            <Link
+              target="_blank"
+              href="https://www.tiktok.com/@summit614?_t=8krP44rayX3&_r=1"
+            >
+              summit614
+            </Link>
           </div>
         </div>
         <div className="flex items-center">
           <Image src={email} className="h-10 my-10" />
           <div className="mr-72 -ml-80 text-lg font-bold">
-            <Link href={tiktok}>summitbusiness3@gmail.com</Link>
+            <Link target="_blank" href="mailto:summitbusiness3@gmail.com">
+              summitbusiness3@gmail.com
+            </Link>
           </div>
         </div>
         <div className="flex items-center -ml-4">
           <Image src={instagram} className="h-10 my-10" />
           <div className="mr-72 -ml-80 text-lg font-bold">
-            <Link href={tiktok}>summit071</Link>
+            <Link
+              target="_blank"
+              href="https://www.instagram.com/summit071?igsh=c3A2NWMzZjM1N244&utm_source=qr"
+            >
+              summit071
+            </Link>
           </div>
         </div>
       </div>
