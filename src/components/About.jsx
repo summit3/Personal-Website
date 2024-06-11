@@ -16,7 +16,11 @@ export default function About() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-screen justify-items-center">
         <div className="flex flex-col justify-center items-center">
           <div className="bg-primary p-3 flex items-center justify-center rounded-lg h-24 w-24">
-            <Image className="col-start-1 h-12 w-12 invert" src={code} />
+            <Image
+              className="col-start-1 h-12 w-12 invert"
+              src={code}
+              alt="html code"
+            />
           </div>
           <div className="px-16 py-7 text-center text-md">
             Experienced in web development, utilizing frameworks such as React
@@ -26,7 +30,11 @@ export default function About() {
         </div>
         <div className="flex flex-col justify-center items-center">
           <div className="bg-primary p-3 flex items-center justify-center rounded-lg h-24 w-24">
-            <Image className="col-start-2 h-12 w-12 invert" src={excel} />
+            <Image
+              className="col-start-2 h-12 w-12 invert"
+              src={excel}
+              alt="excel logo"
+            />
           </div>
           <div className="px-16 py-7 text-center">
             Skilled in developing comprehensive and dynamic spreadsheets using
@@ -36,7 +44,11 @@ export default function About() {
         </div>
         <div className="flex flex-col justify-center items-center">
           <div className="bg-primary p-3 flex items-center justify-center rounded-lg h-24 w-24">
-            <Image className="col-start-3 h-12 w-12 invert" src={python} />
+            <Image
+              className="col-start-3 h-12 w-12 invert"
+              src={python}
+              alt="python logo"
+            />
           </div>
           <div className="px-16 py-7 text-center">
             Fluent in Python for data analysis using libraries such as

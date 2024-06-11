@@ -12,7 +12,11 @@ export default function Contact() {
       className="h-screen w-screen bg-primary grid grid-cols-3 grid-rows-4 relative"
       id="contact"
     >
-      <Image src={wave} className="w-screen absolute top-0 rotate-180 h-auto" />
+      <Image
+        src={wave}
+        className="w-screen absolute top-0 rotate-180 h-auto"
+        alt="Wave"
+      />
       <h2 className="font-bold text-secondary z-10 text-5xl col-start-2 row-start-2 flex justify-center -mt-12">
         Contact
       </h2>
@@ -21,7 +25,11 @@ export default function Contact() {
         <div className="text-black grid grid-cols-1 grid-rows-3 gap-20 absolute top-52 left-44 sm:top-52 lg:left-32 mac:left-32 xl:left-28">
           <div className="flex items-center justify-center z-30">
             <div className="col-start-1 row-start-1 shrink-0">
-              <Image src={tiktok} className="h-10 w-10 mr-5" />
+              <Image
+                src={tiktok}
+                className="h-10 w-10 mr-5"
+                alt="Tiktok Logo"
+              />
             </div>
             <div className="text-lg font-bold col-start-2 row-start-1">
               <Link
@@ -34,7 +42,7 @@ export default function Contact() {
           </div>
           <div className="flex items-center justify-center z-30">
             <div className="col-start-1 row-start-2 shrink-0">
-              <Image src={email} className="h-10 w-10 mr-5" />
+              <Image src={email} className="h-10 w-10 mr-5" alt="Email Logo" />
             </div>
             <div className="text-lg font-bold col-start-2 row-start-2">
               <Link target="_blank" href="mailto:summitbusiness3@gmail.com">
@@ -44,7 +52,11 @@ export default function Contact() {
           </div>
           <div className="flex items-center justify-center z-30">
             <div className="col-start-1 row-start-3 shrink-0">
-              <Image src={instagram} className="h-10 w-10 mr-5" />
+              <Image
+                src={instagram}
+                className="h-10 w-10 mr-5"
+                alt="Instagram Logo"
+              />
             </div>
             <div className="text-lg font-bold col-start-2 row-start-3">
               <Link
