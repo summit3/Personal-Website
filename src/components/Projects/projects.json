@@ -2,16 +2,11 @@
   {
     "id": 1,
     "image": "/images/Finance.png",
-    "description": "This is my description"
+    "description": "Utilized Google Sheets and SQL queries to develop a comprehensive spreadsheet for tracking personal finances. Users manually input transaction details—such as the nature of the transaction, date, and amount spent—via a Google Form, which automatically updates the spreadsheet. The system includes various filters, enabling users to analyse their spending by retailer or category. Additionally, users can switch the time scale between monthly and weekly views for more detailed insights."
   },
   {
     "id": 2,
-    "image": "/images/Finance.png",
-    "description": "This is my description"
-  },
-  {
-    "id": 3,
-    "image": "/images/Finance.png",
-    "description": "This is my description"
+    "image": "/images/Credit Card ML.png",
+    "description": "Used a credit card acceptance dataset from Kaggle and derive insights using Pandas and Matplotlib. Subsequently, I trained a machine learning model with Scikit-Learn, leveraging factors such as income, age, and job industry to predict the likelihood of credit card approval."
   }
 ]

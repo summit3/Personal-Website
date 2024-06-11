@@ -4,7 +4,6 @@ import Image from "next/image";
 import projects from "./Projects/projects.json";
 
 export default function Projects() {
-  console.log(projects);
   return (
     <section
       className="bg-secondary text-black text-3xl flex flex-col items-center"
