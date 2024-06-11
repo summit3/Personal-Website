@@ -1,8 +1,10 @@
 import Card from "./Projects/Card";
 import wave from "../../public/Svg/layered-waves-haikei.svg";
 import Image from "next/image";
+import projects from "./Projects/projects.json";
 
 export default function Projects() {
+  console.log(projects);
   return (
     <section
       className="bg-secondary text-black text-3xl flex flex-col items-center"
@@ -14,9 +16,14 @@ export default function Projects() {
           Projects
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 w-screen justify-items-center gap-7 mt-10 px-20">
-          <Card />
-          <Card />
-          <Card />
+          {projects.map((project) => (
+            <Card
+              key={project.id}
+              id={project.id}
+              img={project.image}
+              desc={project.description}
+            />
+          ))}
         </div>
         <Image src={wave} className="w-screen" />
       </div>
