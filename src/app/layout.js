@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>Summit's Portfolio</title>
+        <title>Summit&apos;s Portfolio</title>
       </head>
       <body className={`${roboto.className} text-secondary`}>
         <Navbar />
